@@ -1,6 +1,6 @@
 ({
   name: 'contract',
-  length: [300, 2500],
+  length: [300, 600],
   test: contract => {
     {
       const f = (a, b) => a + b;
