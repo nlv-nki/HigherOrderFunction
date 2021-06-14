@@ -4,7 +4,7 @@ const contract = (fn, ...types) => {
   return (...args) => {
     let typeName,
         controlType;
-     controlType = types[types.length-2].name.toLowerCase()
+     controlType = types[types.length-1].name.toLowerCase()
       args.forEach((arg,index) => {
         typeName = types[index].name.toLowerCase();
          if (typeof arg !== typeName) {
